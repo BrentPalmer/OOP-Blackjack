@@ -1,7 +1,4 @@
-# Blackjack is between 2 players. Game has a deck of cards (4 of each suit)
-# the 'ACE' card can be a value of either 11 or 1
-# the 'face cards' are a value of 10
-# the other cards are their own value
+
 
 # Game starts with dealer passing card to player,
 # then himself (does this twice until both player and dealer has 2 cards).
@@ -124,7 +121,7 @@ class Dealer
     @name = "dealer"
     @cards = []
   end
-  
+
   def show_flop
     show_hand
   end
